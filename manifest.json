@@ -8,7 +8,7 @@
   "theme_color": "#32aac2",
   "icons": [
     {
-      "src": "/cars.png",
+      "src": "/metataxi.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
