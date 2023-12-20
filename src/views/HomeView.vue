@@ -24,7 +24,7 @@
           <div class="mt-10 flex items-center justify-center gap-x-6">
 
             <a id="callLink" href="tel:+38598491369" class="inline-block w-50">
-              <button class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-lg text-xl">
+              <button class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-lg text-lg">
                 Pozovi prijevoz
               </button>
             </a>
@@ -40,18 +40,23 @@
       </div>
     </div>
   </div>
-  <footer class=" py-2 footer-border bg-gray-200 absolute bottom-0">
+  <footer class="py-2 footer-border bg-gray-200 fixed bottom-0">
     <div class="mx-auto flex flex-col items-center justify-center text-gray-700">
-      <div class="font-bold ">Taxi Opatija d.o.o.</div>
-      <a class='text-[10px]' href="tel:+38598491369">GSM: +385 98 491 369</a>
-      <div>
-        <div class='text-[8px]'>Dr. Ante Mandića 2, Opatija</div>
-        <div class='text-[8px]'>51410 Opatija</div>
+
+      <div class='w-full grid grid-cols-3'>
+        <div class='text-[8px]'>Vl. Ante Rukavina</div>
+        <div class="font-bold text-xs">Taxi Opatija d.o.o.</div>
+        <div class='text-[8px]'>Dr. Ante Mandića 2</div>
+        <div class='text-[8px]'>OIB: 12352123435235</div>
+        <a class='text-[10px]' href="tel:+38598491369">+385 98 491 369</a>
+        <div class='text-[8px]'>51410 Opatija, Croatia</div>
       </div>
+      <!-- <div class='text-[8px]'>Dr. Ante Mandića 2, Opatija</div>
+      <div class='text-[8px]'>51410 Opatija</div>
+      <div class='text-[8px]'>OIB: 234563425454365</div> -->
     </div>
   </footer>
 </template>
-
 
 
 <script setup>
