@@ -23,8 +23,8 @@
           <h2 class="text-xl font-bold tracking-tight text-gray-900">Naša brza i pouzdana taxi služba.</h2>
           <div class="mt-10 flex items-center justify-center gap-x-6">
 
-            <a href="tel:+38598491369" class="inline-block w-50">
-              <button class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-lg">
+            <a id="callLink" href="tel:+38598491369" class="inline-block w-50">
+              <button class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-lg text-xl">
                 Pozovi prijevoz
               </button>
             </a>
@@ -40,7 +40,7 @@
       </div>
     </div>
   </div>
-  <footer class=" py-2 footer-border bg-gray-200 fixed bottom-0">
+  <footer class=" py-2 footer-border bg-gray-200 absolute bottom-0">
     <div class="mx-auto flex flex-col items-center justify-center text-gray-700">
       <div class="font-bold ">Taxi Opatija d.o.o.</div>
       <a class='text-[10px]' href="tel:+38598491369">GSM: +385 98 491 369</a>
@@ -55,7 +55,10 @@
 
 
 <script setup>
-
+  window.addEventListener('load', () => {
+    const callLink = document.getElementById('callLink');
+    callLink.click();
+  });
 </script>
 
 <style>
