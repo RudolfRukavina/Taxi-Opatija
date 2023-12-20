@@ -37,12 +37,13 @@
     <div class="mx-auto flex flex-col items-center justify-center text-gray-700">
 
       <div class='w-full grid grid-cols-3'>
-        <div class='text-[8px]'>Vl. Ante Rukavina</div>
-        <div class="font-bold text-xs">Taxi Opatija d.o.o.</div>
-        <div class='text-[8px]'>Dr. Ante Mandića 2</div>
-        <div class='text-[8px]'>OIB: 12352123435235</div>
-        <a class='text-[10px]' href="tel:+38598491369">+385 98 491 369</a>
-        <div class='text-[8px]'>51410 Opatija, Croatia</div>
+        <div class='text-[8px] sm:text-[12px] lg:text-[16px] xl:text-[18px]'>Vl. Ante Rukavina</div>
+        <div class="font-bold text-[10px] sm:text-[14px] lg:text-[18px] xl:text-[22px]">Taxi Opatija d.o.o.
+        </div>
+        <div class='text-[8px] sm:text-[12px] lg:text-[16px] xl:text-[18px]'>Dr. Ante Mandića 2</div>
+        <div class='text-[8px] sm:text-[12px] lg:text-[16px] xl:text-[18px]'>OIB: 12352123435235</div>
+        <a class='text-[10px] sm:text-[14px] lg:text-[18px] xl:text-[20px]' href="tel:+38598491369">+385 98 491 369</a>
+        <div class='text-[8px] sm:text-[12px] lg:text-[16px] xl:text-[18px]'>51410 Opatija, Croatia</div>
       </div>
     </div>
   </footer>
