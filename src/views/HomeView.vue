@@ -49,10 +49,6 @@
 </template>
 
 <script setup>
-  window.addEventListener('load', () => {
-    const callLink = document.getElementById('callLink');
-    callLink.click();
-  });
 </script>
 
 <style>
