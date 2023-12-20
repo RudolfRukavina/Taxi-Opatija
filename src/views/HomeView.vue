@@ -1,45 +1,38 @@
 
 
 <template>
-  <img class="hero-photo h-1/3 sm:h-56" src="../assets/imgs/opatijamainphoto.jpeg" alt="">
-  <div class="flex justify-center -mt-5">
-    <div class="hero-hours">
-      <p class="m-0 mx-1 p-1 px-12 text-lg fw-bold">0 - 24</p>
-    </div>
-  </div>
-  <div class="bg-white">
-    <div class="relative isolate px-6 lg:px-8">
-      <div class="absolute inset-x-0 -top-1/3 sm:-top-40 -z-10 transform-gpu overflow-hidden blur-3xl" aria-hidden="true">
-        <div
-          class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#8088ff] to-[#89e7fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
-          style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />
+  <header>
+    <img class="hero-photo h-1/3 sm:h-56" src="../assets/imgs/opatijamainphoto.jpeg" alt="">
+    <div class="flex justify-center -mt-5">
+      <div class="hero-hours">
+        <p class="m-0 mx-1 p-1 px-12 text-lg fw-bold">0 - 24</p>
       </div>
-      <div class="mx-auto max-w-2xl pt-10">
-        <div class='flex justify-center'>
-          <img src="../assets/imgs/grbopatije.png" alt="" class="-mt-5 object-cover w-3/12 sm:w-24" />
-        </div>
-        <div class="text-center">
-          <h1 class="text-6xl font-bold tracking-tight text-gray-900">Taxi Opatija</h1>
-          <h2 class="text-xl font-bold tracking-tight text-gray-900">Naša brza i pouzdana taxi služba.</h2>
-          <div class="mt-10 flex items-center justify-center gap-x-6">
+    </div>
+  </header>
+  <main>
+    <div>
+      <div class="relative isolate px-6 lg:px-8">
+        <div class="mx-auto max-w-2xl pt-10">
+          <div class='flex justify-center'>
+            <img src="../assets/imgs/grbopatije.png" alt="" class="-mt-5 object-cover w-3/12 sm:w-24" />
+          </div>
+          <div class="text-center">
+            <h1 class="text-6xl font-bold tracking-tight text-gray-900">Taxi Opatija</h1>
+            <h2 class="text-xl font-bold tracking-tight text-gray-900">Naša brza i pouzdana taxi služba.</h2>
+            <div class="mt-10 flex items-center justify-center gap-x-6">
 
-            <a id="callLink" href="tel:+38598491369" class="inline-block w-50">
-              <button class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-lg text-lg">
-                Pozovi prijevoz
-              </button>
-            </a>
+              <a id="callLink" href="tel:+38598491369" class="inline-block w-50">
+                <button class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-lg text-lg">
+                  Pozovi prijevoz
+                </button>
+              </a>
 
+            </div>
           </div>
         </div>
       </div>
-      <div class="absolute inset-x-0 top-1/3 sm:top-[40%] -z-10 transform-gpu overflow-hidden blur-3xl"
-        aria-hidden="true">
-        <div
-          class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#8097ff] to-[#89e1fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
-          style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)" />
-      </div>
     </div>
-  </div>
+  </main>
   <footer class="py-2 footer-border bg-gray-200 fixed bottom-0">
     <div class="mx-auto flex flex-col items-center justify-center text-gray-700">
 
@@ -51,13 +44,9 @@
         <a class='text-[10px]' href="tel:+38598491369">+385 98 491 369</a>
         <div class='text-[8px]'>51410 Opatija, Croatia</div>
       </div>
-      <!-- <div class='text-[8px]'>Dr. Ante Mandića 2, Opatija</div>
-      <div class='text-[8px]'>51410 Opatija</div>
-      <div class='text-[8px]'>OIB: 234563425454365</div> -->
     </div>
   </footer>
 </template>
-
 
 <script setup>
   window.addEventListener('load', () => {
@@ -95,7 +84,10 @@
 
 body {
   overflow-y: hidden;
+  background: rgb(58, 59, 180);
+  background: linear-gradient(0deg, rgba(58, 59, 180, 0) 0%, rgba(29, 208, 253, 0.0746892507002801) 75%, rgba(147, 69, 252, 0) 100%);
 }
+
 
 button {
   box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px, rgba(0, 0, 0, 0.3) 0px 4px 8px -2px, rgba(0, 0, 0, 0.2) 0px -2px 0px inset;
