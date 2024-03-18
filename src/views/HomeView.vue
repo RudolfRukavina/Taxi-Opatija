@@ -106,7 +106,7 @@
           <span class="font-bold">Poslovna banka:</span> ERSTE & STEIERMÄRKISCHE BANK d.d.<br />
           <span class="font-bold">OIB:</span> 66045096237 <br />
           <!-- <span class="font-bold">Matični broj:</span> 32546357465352 <br /> -->
-          <span class="font-bold">MBS:</span>98527584</sub>
+          <span class="font-bold">MBS:</span> 98527584</sub>
       </p>
       <hr v-show="showLegal" class="border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <span v-show="showLegal" class="block py-4 text-sm text-gray-500 sm:text-center dark:text-gray-400 relative">© 2024
