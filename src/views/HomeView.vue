@@ -101,8 +101,7 @@
           <span class="font-bold"> Adresa (sjedište) tvrtke:</span> Dr. Ante Mandića 2<br />
           <span class="font-bold">E-mail:</span> anterukavina@yahoo.com.hr <br />
           <span class="font-bold">Broj telefona:</span> 098491369 <br />
-          <span class="font-bold">Bankovni račun (IBAN): HR4624020061100735606
-          </span>
+          <span class="font-bold">Bankovni račun (IBAN):</span> HR4624020061100735606
           <br />
           <span class="font-bold">Poslovna banka:</span> ERSTE & STEIERMÄRKISCHE BANK d.d.<br />
           <span class="font-bold">OIB:</span> 66045096237 <br />
