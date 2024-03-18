@@ -98,8 +98,7 @@
         <sub>
           <span class="font-bold">Naziv tvrtke:</span>
           Taxi Opatija - Obrt za usluge <br />
-          <span class="font-bold"> Adresa (sjedište) tvrtke:</span> Dr. Ante Mandića
-          2, OPATIJA, 51410 <br />
+          <span class="font-bold"> Adresa (sjedište) tvrtke:</span> Dr. Ante Mandića 2<br />
           <span class="font-bold">E-mail:</span> anterukavina@yahoo.com.hr <br />
           <span class="font-bold">Broj telefona:</span> 098491369 <br />
           <span class="font-bold">Bankovni račun (IBAN): HR4624020061100735606
