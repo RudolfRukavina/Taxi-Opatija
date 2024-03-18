@@ -53,7 +53,7 @@
 
 
   <footer class="bg-white rounded-lg shadow-2xl dark:bg-gray-900  w-full fixed bottom-0">
-    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-4">
+    <div class="w-full max-w-screen-xl mx-auto p-4 pb-0 md:py-4">
       <div class="sm:flex sm:items-center sm:justify-between">
         <a href="tel:+38598491369" class="flex justify-between items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
           <div class='flex justify-center'> <img src="../assets/imgs/grbopatije.png" class="h-8"
@@ -72,7 +72,7 @@
           <li>
             <a href="#" class="hover:underline me-4 md:me-6">Privatnost</a>
           </li>
-          <span class='absolute top-0 -m-10 rounded-3 right-0 mx-1 cursor-pointer' v-show='!showLegal'
+          <span class='absolute bottom-3  rounded-3 right-0 mx-1 cursor-pointer' v-show='!showLegal'
             @click='showLegal = !showLegal'>
             <svg class='w-10' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -83,8 +83,9 @@
               </g>
             </svg>
           </span>
-          <span class='absolute top-0 -m-10 rounded-3 right-0 mx-1 cursor-pointer' v-show="showLegal"
-            @click='showLegal = !showLegal'>
+          <span
+            class='absolute top-15 border rounded-2xl lg:top-0 -m-4 mx-4 bg-red-200 border-red-100 shadow-sm right-0 z-50 cursor-pointer'
+            v-show="showLegal" @click='showLegal = !showLegal'>
             <svg class='w-10' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
               <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
@@ -113,9 +114,9 @@
           <span class='font-bold'>Matični broj:</span> 32546357465352 <br>
           <span class='font-bold'>MBS:</span> 3246574634</sub>
       </p>
-      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400 relative">© 2024 <a
-          href="tel:+38598491369" class="hover:underline">Taxi Opatija</a>
+      <hr v-show='showLegal' class=" border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <span v-show="showLegal" class="block py-4 text-sm text-gray-500 sm:text-center dark:text-gray-400 relative">© 2024
+        <a href="tel:+38598491369" class="hover:underline">Taxi Opatija</a>
 
       </span>
 
