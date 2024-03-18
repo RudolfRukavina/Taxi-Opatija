@@ -2,10 +2,10 @@
 
 <template>
   <header>
-    <img class="hero-photo h-1/3 sm:h-56" src="../assets/imgs/opatijamainphoto.jpeg" alt="">
+    <img class="hero-photo h-1/3 sm:h-56 md:h-96" src="../assets/imgs/opatijamainphoto.jpeg" alt="">
     <div class="flex justify-center -mt-5">
       <div class="hero-hours">
-        <p class="m-0 mx-1 p-1 px-12 text-lg fw-bold">0 - 24</p>
+        <p class="m-0 mx-1 p-1 px-12 text-xl fw-bold">0 - 24</p>
       </div>
     </div>
   </header>
@@ -18,10 +18,11 @@
           </div>
           <div class="text-center">
             <h1 class="text-6xl font-bold tracking-tight text-gray-900">Taxi Opatija</h1>
-            <h2 class="text-xl font-bold tracking-tight text-gray-900">Naša brza i pouzdana taxi služba.</h2>
+            <h2 class="text-xl font-bold tracking-tight text-gray-900">Brza i pouzdana <span class='text-amber-600'>taxi
+                služba.</span></h2>
             <div class="mt-10 flex items-center justify-center gap-x-6">
 
-              <a id="callLink" href="tel:+38598491369" class="inline-block w-50">
+              <a id="callLink" href="tel:+38598491369" class="inline-block w-50 ">
                 <button class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-lg text-lg">
                   Pozovi prijevoz
                 </button>
@@ -33,7 +34,7 @@
       </div>
     </div>
   </main>
-  <footer class="py-2 footer-border bg-gray-200 fixed bottom-0">
+  <!-- <footer class="py-2 footer-border bg-gray-200 fixed bottom-0">
     <div class="mx-auto flex flex-col items-center justify-center text-gray-700">
 
       <div class='w-full grid grid-cols-3'>
@@ -46,10 +47,68 @@
         <div class='text-[8px] sm:text-[12px] lg:text-[16px] xl:text-[18px]'>51410 Opatija, Croatia</div>
       </div>
     </div>
+  </footer> -->
+
+
+
+
+  <footer class="bg-white rounded-lg shadow-2xl dark:bg-gray-900  w-full fixed bottom-0">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-4">
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <a href="tel:+38598491369" class="flex justify-between items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+          <div class='flex justify-center'> <img src="../assets/imgs/grbopatije.png" class="h-8"
+              alt="Taxi Opatija Logo" /> <span
+              class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Taxi Opatija</span></div>
+
+          <span class="self-center text-md font-semibold whitespace-nowrap dark:text-white">+385 98 491
+            369</span>
+
+        </a>
+        <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+          <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Uvjeti korištenja</a>
+          </li>
+
+          <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Privatnost</a>
+          </li>
+          <span class='absolute top-0 right-0 text-2xl md:text-3xl lg:text-4xl -my-5 p-1 py-2 mx-1 cursor-pointer'
+            v-show='!showLegal' @click='showLegal = !showLegal'>ℹ️</span>
+          <span class='absolute top-0 right-0 text-2xl md:text-3xl lg:text-4xl -my-5 p-1 py-2 mx-1 cursor-pointer'
+            v-show="showLegal" @click='showLegal = !showLegal'>⬇️</span>
+        </ul>
+
+
+      </div>
+
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" v-show='showLegal' />
+
+      <p class='text-center text-[17px] my-3 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-4' v-show='showLegal'>
+        <sub>
+          <span class='font-bold'>Naziv tvrtke:</span>
+          Taxi Opatija - Obrt za usluge <br>
+          <span class='font-bold'> Adresa (sjedište) tvrtke:</span> Ante Mandića 2 <br>
+          <span class='font-bold'>E-mail:</span> anterukavina@gmail.com <br>
+          <span class='font-bold'>Broj telefona:</span> 098491369 <br>
+          <span class='font-bold'>Bankovni račun (IBAN):</span> 245743255463 <br>
+          <span class='font-bold'>Poslovna banka:</span> Erste bank <br>
+          <span class='font-bold'>OIB:</span> 2463574656345235465 <br>
+          <span class='font-bold'>Matični broj:</span> 32546357465352 <br>
+          <span class='font-bold'>MBS:</span> 3246574634</sub>
+      </p>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400 relative">© 2024 <a
+          href="tel:+38598491369" class="hover:underline">Taxi Opatija</a>
+
+      </span>
+
+    </div>
   </footer>
 </template>
 
 <script setup>
+  import { ref } from "vue"
+  const showLegal = ref(false);
 </script>
 
 <style>
