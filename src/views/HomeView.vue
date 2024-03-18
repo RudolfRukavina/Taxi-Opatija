@@ -98,16 +98,17 @@
         <sub>
           <span class="font-bold">Naziv tvrtke:</span>
           Taxi Opatija - Obrt za usluge <br />
-          <span class="font-bold"> Adresa (sjedište) tvrtke:</span> Ante Mandića
-          2 <br />
-          <span class="font-bold">E-mail:</span> anterukavina@gmail.com <br />
+          <span class="font-bold"> Adresa (sjedište) tvrtke:</span> Dr. Ante Mandića
+          2, OPATIJA, 51410 <br />
+          <span class="font-bold">E-mail:</span> anterukavina@yahoo.com.hr <br />
           <span class="font-bold">Broj telefona:</span> 098491369 <br />
-          <span class="font-bold">Bankovni račun (IBAN):</span> 245743255463
+          <span class="font-bold">Bankovni račun (IBAN): HR4624020061100735606
+          </span>
           <br />
-          <span class="font-bold">Poslovna banka:</span> Erste bank <br />
-          <span class="font-bold">OIB:</span> 2463574656345235465 <br />
-          <span class="font-bold">Matični broj:</span> 32546357465352 <br />
-          <span class="font-bold">MBS:</span> 3246574634</sub>
+          <span class="font-bold">Poslovna banka:</span> ERSTE & STEIERMÄRKISCHE BANK d.d.<br />
+          <span class="font-bold">OIB:</span> 66045096237 <br />
+          <!-- <span class="font-bold">Matični broj:</span> 32546357465352 <br /> -->
+          <span class="font-bold">MBS:</span>98527584</sub>
       </p>
       <hr v-show="showLegal" class="border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <span v-show="showLegal" class="block py-4 text-sm text-gray-500 sm:text-center dark:text-gray-400 relative">© 2024
