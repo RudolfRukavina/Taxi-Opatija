@@ -1,6 +1,6 @@
 <template>
   <header>
-    <img class="hero-photo h-1/3 sm:h-56 md:h-96" src="../assets/imgs/opatijamainphoto.jpeg" alt="" />
+    <img class="hero-photo h-1/4 sm:h-52 md:h-96" src="../assets/imgs/opatijamainphoto.jpeg" alt="" />
     <div class="flex justify-center -mt-5">
       <div class="hero-hours">
         <p class="m-0 mx-1 p-1 px-12 text-xl fw-bold">0 - 24</p>
