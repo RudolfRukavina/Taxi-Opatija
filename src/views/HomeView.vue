@@ -53,13 +53,13 @@
       <div class="sm:flex sm:items-center sm:justify-between">
         <a href="tel:+38598491369" class="flex justify-between items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
           <div class="flex justify-center">
-            <img src="../assets/imgs/grbopatije.png" class="h-8" alt="Taxi Opatija Logo" />
-            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Taxi Opatija</span>
+            <img src="../assets/imgs/grbopatije.png" class="h-6" alt="Taxi Opatija Logo" />
+            <span class="self-center text-md font-semibold whitespace-nowrap dark:text-white">Taxi Opatija</span>
           </div>
 
           <span class="self-center text-sm font-semibold whitespace-nowrap dark:text-white">+385 98 491 369</span>
         </a>
-        <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+        <ul class="flex flex-wrap items-center mb-6 text-xs font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
           <li>
             <a href="#" class="hover:underline me-4 md:me-6">Uvjeti korištenja</a>
           </li>
@@ -69,7 +69,7 @@
           </li>
           <span class="absolute bottom-3 rounded-3 right-0 mx-1 cursor-pointer" v-show="!showLegal"
             @click="showLegal = !showLegal">
-            <svg class="w-10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="w-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
               <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
               <g id="SVGRepo_iconCarrier">
@@ -81,7 +81,7 @@
           <span
             class="absolute top-15 border rounded-2xl lg:top-0 -m-4 mx-4 bg-red-200 border-red-100 shadow-sm right-0 z-50 cursor-pointer"
             v-show="showLegal" @click="showLegal = !showLegal">
-            <svg class="w-10" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="w-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
               <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
               <g id="SVGRepo_iconCarrier">
