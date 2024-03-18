@@ -72,10 +72,27 @@
           <li>
             <a href="#" class="hover:underline me-4 md:me-6">Privatnost</a>
           </li>
-          <span class='absolute top-0 right-0 text-2xl md:text-3xl lg:text-4xl -my-5 p-1 py-2 mx-1 cursor-pointer'
-            v-show='!showLegal' @click='showLegal = !showLegal'>ℹ️</span>
-          <span class='absolute top-0 right-0 text-2xl md:text-3xl lg:text-4xl -my-5 p-1 py-2 mx-1 cursor-pointer'
-            v-show="showLegal" @click='showLegal = !showLegal'>⬇️</span>
+          <span class='absolute top-0 -m-10 rounded-3 right-0 mx-1 cursor-pointer' v-show='!showLegal'
+            @click='showLegal = !showLegal'>
+            <svg class='w-10' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path d="M18 15L12.2278 8.26574C12.108 8.12606 11.892 8.12606 11.7722 8.26574L6 15" stroke="#000000"
+                  stroke-width="2" stroke-linecap="round"></path>
+              </g>
+            </svg>
+          </span>
+          <span class='absolute top-0 -m-10 rounded-3 right-0 mx-1 cursor-pointer' v-show="showLegal"
+            @click='showLegal = !showLegal'>
+            <svg class='w-10' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+              <g id="SVGRepo_iconCarrier">
+                <path d="M6 9L12 15L18 9" stroke="#000000" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round"></path>
+              </g>
+            </svg></span>
         </ul>
 
 
