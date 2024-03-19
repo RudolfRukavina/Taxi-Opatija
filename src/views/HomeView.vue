@@ -69,7 +69,7 @@
           </li>
 
           <li>
-            <a href="https://www.facebook.com/profile.php?id=100083730845188" target="_blank"
+            <a href="https://www.facebook.com/taxiopatija" target="_blank"
               class="block px-4 py-2 text-sm text-blue-500"><i class="fa fa-facebook"></i></a>
           </li>
           <li>
