@@ -73,7 +73,7 @@
                 class="fa fa-facebook"></i></a>
           </li>
           <li>
-            <a href="https://www.facebook.com/profile.php?id=100083730845188" target="_blank"
+            <a href="https://www.instagram.com/taxiopatija.hr/" target="_blank"
               class="block px-4 text-sm text-purple-500"><i class="fa fa-instagram"></i></a>
           </li>
 
