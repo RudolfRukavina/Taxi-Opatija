@@ -67,6 +67,17 @@
           <li>
             <a href="#" class="hover:underline me-4 md:me-6">Privatnost</a>
           </li>
+
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100083730845188" target="_blank"
+              class="block px-4 py-2 text-sm text-blue-500"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100083730845188" target="_blank"
+              class="block px-4 py-2 text-sm text-purple-500"><i class="fa fa-instagram"></i></a>
+          </li>
+
+
           <span class="absolute bottom-3 rounded-3 right-0 mx-1 cursor-pointer" v-show="!showLegal"
             @click="showLegal = !showLegal">
             <svg class="w-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -94,7 +105,8 @@
 
       <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" v-show="showLegal" />
 
-      <p class="text-center text-[17px] my-3 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-4" v-show="showLegal">
+      <p class="text-center text-[17px] my-3 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-4"
+        v-show="showLegal">
         <sub>
           <span class="font-bold">Naziv tvrtke:</span>
           Taxi Opatija - Obrt za usluge <br />
@@ -109,7 +121,8 @@
           <span class="font-bold">MBS:</span> 98527584</sub>
       </p>
       <hr v-show="showLegal" class="border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <span v-show="showLegal" class="block py-4 text-sm text-gray-500 sm:text-center dark:text-gray-400 relative">© 2024
+      <span v-show="showLegal" class="block py-4 text-sm text-gray-500 sm:text-center dark:text-gray-400 relative">©
+        2024
         <a href="tel:+38598491369" class="hover:underline">Taxi Opatija</a>
       </span>
     </div>
@@ -117,11 +130,14 @@
 </template>
 
 <script setup>
-  import { ref } from "vue";
-  const showLegal = ref(false);
+import { ref } from "vue";
+const showLegal = ref(false);
+
 </script>
 
 <style>
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
 .hero-photo {
   width: 100%;
   object-fit: cover;
