@@ -78,7 +78,7 @@
           </li>
 
 
-          <span class="absolute bottom-4 rounded-3 right-0 mx-1 cursor-pointer" v-show="!showLegal"
+          <span class="absolute bottom-4 lg:bottom-3 rounded-3 right-0 mx-1 cursor-pointer" v-show="!showLegal"
             @click="showLegal = !showLegal">
             <svg class="w-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
